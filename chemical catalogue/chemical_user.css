@@ -1,0 +1,93 @@
+body{
+    background-image: url(mainbg2.jpg);
+}
+header{
+    color: aliceblue;
+}
+h1{
+    margin-top: 50px;
+}
+.main-content{
+  margin-left: 20px;
+}
+.mainicon{
+    color: black;
+    margin-top: 25px;
+}
+h4{
+  height: 1.5cm;
+  text-overflow: ellipsis;
+}
+h6{
+  color: white;
+  margin: 0px 0px 0px 115px;
+}
+.cart{
+  display: inline-flex;
+  float: right;
+  margin: 50px 140px 0px 0px;
+}
+.cart-text{
+  height: 0.7cm;
+  width: 0.7cm;
+  border: 2px solid white;
+  border-radius: 50px;
+  padding-left: -30px;
+  font-size: large;
+}
+.cart img{
+  height: 1.5cm;
+  width: 1.5cm;
+}
+.cart a{
+  text-decoration: none;
+}
+.cart a sup{
+  font-size: larger;
+  color: white;
+  text-decoration:solid;
+  border: 2px solid white;
+  border-radius: 50px;
+  border-spacing: 5px;
+}
+.price-filter{
+  margin-top: 150px;
+}
+.price-filter input{
+  height: 30px;
+  width: 70px;
+}
+.price-filter span{
+  margin-left: 10px;
+}
+.price-filter p{
+  margin-top: 3px;
+  margin-right: 2px;
+}
+.fixed-price{
+  margin-left: 0%;
+}
+ul{
+  margin-left: 0;
+  list-style-type: none;
+  padding: 0%;
+  margin-bottom: 0%;
+}
+.fixed-price ul li a{
+  text-decoration: none;
+  color: aliceblue;
+}
+.filter button{
+  margin: 0px 0px 0px 14px;
+  font-weight: 500;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+/* <p id="idid" style="visibility: hidden;">
+                                                <?php echo $row['M_ID']?>
+                                            </p> */
